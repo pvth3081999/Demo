@@ -1,0 +1,81 @@
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  width: 100%;
+}
+
+.dialog-header {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.content-dialog {
+  padding: 20px;
+}
+
+.input-choose-file {
+  padding-bottom: 20px;
+}
+
+.input-choose-file > input {
+  cursor: pointer;
+}
+
+.control-button {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.control-button > div {
+  padding: 5px;
+  cursor: pointer;
+}
+.control-button > div .button {
+  height: 24px;
+}
+.icon-pen {
+  transform: rotate(120deg);
+}
+
+.image-editor-container {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.input-brush {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.canvas-draw {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.show-image {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding: 20px 0;
+}

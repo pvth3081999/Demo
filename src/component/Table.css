@@ -1,0 +1,16 @@
+
+.add-image {
+  width: 100%;
+  text-align: end;
+  padding-bottom: 10px;
+}
+.buton-add-image {
+  padding: 10px;
+  font-size: 14px;
+  background: #ffff;
+  font-weight: 600;
+}
+.table-component {
+  width: 100% !important;
+  border: 1px solid black;
+}
